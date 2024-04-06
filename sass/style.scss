@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
 
+/* variables */
+$color-fondo-body: yellow ;
+$color-fondo-main: #551a8b;
 
 * {
     margin: 0;
@@ -10,7 +13,7 @@
 
 body {
     font-family: 'Barlow Condensed', sans-serif;
-    background-color: yellow;
+    background-color: $color-fondo-body;
 }
 
 .header {
@@ -59,7 +62,7 @@ body {
 
 
 main{
-    background-color: #551a8b ;
+    background-color: $color-fondo-main ;
 
 }
 
