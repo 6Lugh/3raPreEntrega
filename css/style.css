@@ -83,11 +83,6 @@ main {
   font-size: 20px;
 }
 
-.articulo i {
-  font-size: 35px;
-  margin-bottom: 5px;
-}
-
 footer {
   margin-top: auto;
   background-color: yellow;
@@ -109,12 +104,15 @@ footer nav ul a img {
 }
 
 /* Unite  */
+.main-unite {
+  padding: 75px;
+}
+
 .formulario-unite {
   width: 400px;
   background: #ffff00;
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
   border-radius: 4px;
   font-family: "calibri";
   color: white;
@@ -171,7 +169,7 @@ footer nav ul a img {
 
 /*video*/
 main .contenedor-videos {
-  margin-top: 20px;
+  padding: 20px;
   text-align: center;
 }
 
